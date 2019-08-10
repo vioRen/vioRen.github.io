@@ -9,12 +9,13 @@
 <script>
 try{
 	if( self.location.hostname == "vioren.github.io" ) {
-	//window.location.href = "http://inplus.top" + location.pathname;
-	var current_url = window.location.href;
-	target_url = current_url.replace("vioren.github.io","inplus.top");
-	window.location = target_url;
-} else{
-	window.location = "http://inplus.top";
+		//window.location.href = "http://inplus.top" + location.pathname;
+		var current_url = window.location.href;
+		target_url = current_url.replace("vioren.github.io","inplus.top");
+		window.location = target_url;
+	} else{
+		window.location = "http://inplus.top";
+	}
 } catch(e) {
 	window.location = "http://inplus.top";
 	}
