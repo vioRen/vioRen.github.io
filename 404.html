@@ -16,10 +16,9 @@ try{
 	} else if( self.location.hostname == "vioren.space" ) {
 		//window.location.href = "http://inplus.top" + location.pathname;
 		var current_url = window.location.href;
-		target_url = current_url.replace("vioren.github.io","inplus.top");
+		target_url = current_url.replace("vioren.space","inplus.top");
 		window.location = target_url;
-	}
-        else{
+	} else{
 		window.location = "https://inplus.top";
 	}
 } catch(e) {
